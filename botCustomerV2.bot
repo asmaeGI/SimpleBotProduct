@@ -1,0 +1,78 @@
+{
+    "name": "botCustomerV2",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "appId": "38b0c8b4-9d1b-463c-a285-8967ed317796",
+            "id": "1",
+            "name": "botCustomerV2",
+            "resourceGroup": "botCustomerGroupe",
+            "serviceName": "botCustomerV2",
+            "subscriptionId": "96cbaff4-ac94-4ca1-94f7-1c223b5e8f7e",
+            "tenantId": "03e02874-9b32-4f80-860e-79336fd1424f"
+        },
+        {
+            "type": "blob",
+            "connectionString": "NkH99liInnul12cgRgDEVw==!0gfuqkS2y0b7uhouwRLjUEe87al7JWVzAfpsW3VqWcyvpbTW8D0HhFf7V/6tKRjuAuLDNfw18uSFbnaF2Ka5smv2PeyONK4jkd432NnhRalEvmyK/iutV/eGFnbbJjiMlWoExJe/n2Wpgmy1qDA0unnSLHn+m5r4L4npNJs0g+7KVG9OGw+VXy5Wh7kliK2zsbJDbljlyU1JVLbg369x6T1S6lXYq0KnfNuOwc1YVdE=",
+            "id": "2",
+            "resourceGroup": "botCustomerGroupe",
+            "serviceName": "botcustomerv29910",
+            "subscriptionId": "96cbaff4-ac94-4ca1-94f7-1c223b5e8f7e",
+            "tenantId": "03e02874-9b32-4f80-860e-79336fd1424f"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "https://d403d2a3.ngrok.io/api/messages",
+            "id": "3",
+            "name": "development",
+            "channelService": "https://botframework.azure.us"
+        },
+        {
+            "type": "endpoint",
+            "appId": "38b0c8b4-9d1b-463c-a285-8967ed317796",
+            "appPassword": "Gkpv5ZFpq/V3vRMsiFcfFQ==!FdbpbI38LvTKuAa9CQAabuS3af87ehabQWZXprAx3g4=",
+            "endpoint": "https://d403d2a3.ngrok.io/api/messages",
+            "id": "4",
+            "name": "production"
+        },
+        {
+            "type": "appInsights",
+            "apiKeys": {},
+            "applicationId": "67211b99-f048-4d56-97a2-3bb89461e1aa",
+            "id": "5",
+            "instrumentationKey": "llLNJLWD4ftwazRnY/6wWA==!hPu6fjJxl+8FYfCMIZTuoFu/rFLL6fJbjLE0BZi7VCZbMDbjh5WyLTmT9wU+KGjm",
+            "resourceGroup": "botCustomerGroupe",
+            "serviceName": "botCustomerV2bueb36",
+            "subscriptionId": "96cbaff4-ac94-4ca1-94f7-1c223b5e8f7e",
+            "tenantId": "03e02874-9b32-4f80-860e-79336fd1424f"
+        },
+        {
+            "type": "luis",
+            "appId": "5be0ef81-e465-4209-a963-fdf60b09ee0a",
+            "authoringKey": "jTWsfqN5GnQfQF+WIv1YfQ==!t+XdlI7QiJrCziEMp8TUP8cPJUbrhCDNIODuw/DFScVfQjp7S09FCHmHzTUWvwb2",
+            "id": "6",
+            "name": "BasicBotLuisApplication",
+            "region": "westus",
+            "version": "0.1"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "76",
+            "name": "test"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "https://1528242f.ngrok.io/api/messages",
+            "id": "146",
+            "name": "test 2"
+        }
+    ],
+    "padlock": "MGiEDUaNq5xWZUsrlCN9Jg==!a8ngonRS669yAZkHWbKtxhN+QJKJCxnEJbfvswrOwbo+AxaGb9cMMAA2DMhVmNmO",
+    "version": "2.0",
+    "path": "D:\\projet\\botCustomerV2-src\\botCustomerV2.bot",
+    "overrides": null
+}
